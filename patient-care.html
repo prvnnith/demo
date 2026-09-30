@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description"
+        content="Khushi Healthcare Nursing Services provides certified home nursing, elder care, physiotherapy, baby care & doctor home visits across Delhi.">
+    <meta name="keywords"
+        content="home nursing Delhi, elder care, patient care, physiotherapy at home, baby care, doctor home visit, home healthcare services">
+    <meta name="author" content="Khushi Healthcare Nursing Services">
+    <!-- Page Title -->
+    <title>Home | Khushi Healthcare Nursing Services</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/site-icon.png">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&amp;display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Animated Css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- lightbox  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" <!--
+        Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+
+<style>
+  body{color:#53666b;line-height:1.75;background:#fff}
+.container{width:min(1100px,92%);margin:auto}
+.hero{background:#eef9f7;padding:70px 0}
+.hero:before{
+display: none;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}
+.tag{display:inline-block;background:#d9f1ed;color:#08796e;padding:6px 15px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:15px}
+h1,h2,h3{color:#173e45;line-height:1.25}
+h1{font-size:52px;margin-bottom:18px}
+h2{font-size:34px;margin-bottom:15px}
+h3{font-size:21px;margin-bottom:8px}
+.hero p{font-size:17px;margin-bottom:20px}
+.hero img{width:100%;height:450px;object-fit:cover;border-radius:25px}
+section{padding:75px 0}
+.intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center}
+.intro img{width:100%;height:440px;object-fit:cover;border-radius:22px}
+.center{text-align:center;max-width:760px;margin:0 auto 40px}
+.center p{margin-top:10px}
+.light{background:#f7fbfa}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{padding:28px;background:#fff;border:1px solid #dcebea;border-radius:18px}
+.card .num{width:45px;height:45px;border-radius:50%;display:grid;place-items:center;background:#dff4f0;color:#08796e;font-weight:bold;margin-bottom:16px}
+.card p{font-size:15px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.split img{width:100%;height:410px;object-fit:cover;border-radius:22px}
+.list{margin-top:18px;display:grid;gap:13px}
+.list div{padding-left:27px;position:relative}
+.list div:before{content:"✓";position:absolute;left:0;top:0;color:#11998c;font-weight:bold}
+.benefits{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.benefit{background:#fff;padding:24px;border-radius:17px;border:1px solid #dcebea}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{text-align:center;padding:25px 15px}
+.step span{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 15px;background:#129b8d;color:#fff;border-radius:50%;font-weight:bold}
+.final {
+    background: #173e45;
+    color: #d7e7e8;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.final h2{color:#fff}
+.final p{max-width:800px;margin:0 auto 20px}
+@media(max-width:800px){
+.hero-grid,.intro,.split{grid-template-columns:1fr}
+h1{font-size:40px}
+.hero img,.intro img,.split img{height:340px}
+.cards{grid-template-columns:1fr 1fr}
+.process{grid-template-columns:1fr 1fr}
+}
+@media(max-width:550px){
+section{padding:55px 0}
+.cards,.benefits,.process{grid-template-columns:1fr}
+h1{font-size:34px}
+h2{font-size:28px}
+.hero{padding:50px 0}
+}
+</style>
+
+<body>
+
+    <div class="contact-fixed-bar">
+        <a href="tel:9266844161" class="phone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                <path
+                    d="M1 4.33333C1 15.7472 10.2528 25 21.6667 25C22.1816 25 22.6922 24.9812 23.1977 24.9441C23.7778 24.9017 24.0679 24.8804 24.332 24.7284C24.5506 24.6025 24.7581 24.3793 24.8677 24.152C25 23.8776 25 23.5575 25 22.9173V19.1609C25 18.6226 25 18.3534 24.9114 18.1226C24.8331 17.9188 24.706 17.7373 24.5412 17.5941C24.3546 17.432 24.1017 17.34 23.5957 17.156L23.5957 17.156L19.3199 15.6012C18.7313 15.3871 18.437 15.2801 18.1577 15.2983C17.9115 15.3143 17.6746 15.3983 17.4733 15.541C17.245 15.7029 17.0838 15.9714 16.7616 16.5085L16.7616 16.5085L15.6667 18.3333C12.1335 16.7332 9.2692 13.8652 7.66667 10.3333L9.49151 9.23843C10.0286 8.91617 10.2971 8.75504 10.459 8.52675C10.6017 8.32544 10.6857 8.08849 10.7017 7.84226C10.7199 7.56302 10.6129 7.2687 10.3988 6.68006L8.84398 2.40428C8.66001 1.89835 8.56802 1.64538 8.40589 1.4588C8.26268 1.29399 8.08119 1.16686 7.87736 1.0886C7.64661 1 7.37744 1 6.83909 1H3.08268C2.4425 1 2.12241 1 1.84797 1.13234C1.62067 1.24194 1.39752 1.44935 1.2716 1.66804C1.11958 1.93209 1.09833 2.22216 1.05585 2.8023C1.01883 3.30781 1 3.81837 1 4.33333Z"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>(926) 684-4161</span>
+        </a>
+        <a href="mailto:Khushihealthcarenursingservice@gmail.com" class="mail">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22" fill="none">
+                <path
+                    d="M25 5.66797L20.2523 8.30559C17.6053 9.77613 16.2818 10.5114 14.8802 10.7997C13.6397 11.0548 12.3603 11.0548 11.1198 10.7997C9.71819 10.5114 8.3947 9.77614 5.74773 8.3056L1 5.66797M5.26667 20.3346H20.7333C22.2268 20.3346 22.9735 20.3346 23.544 20.044C24.0457 19.7883 24.4537 19.3804 24.7094 18.8786C25 18.3082 25 17.5614 25 16.068V5.93464C25 4.44116 25 3.69443 24.7094 3.12399C24.4537 2.62223 24.0457 2.21428 23.544 1.95862C22.9735 1.66797 22.2268 1.66797 20.7333 1.66797H5.26667C3.77319 1.66797 3.02646 1.66797 2.45603 1.95862C1.95426 2.21428 1.54631 2.62223 1.29065 3.12399C1 3.69443 1 4.44116 1 5.93464V16.068C1 17.5614 1 18.3082 1.29065 18.8786C1.54631 19.3804 1.95426 19.7883 2.45603 20.044C3.02646 20.3346 3.77319 20.3346 5.26667 20.3346Z"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg><span>Khushihealthcarenursingservice@gmail.com</span>
+        </a>
+    </div>
+
+
+    <!-- Top Bar Start -->
+    <div class="header-top-bar">
+        <div class="container">
+            <div class="header-top-inner">
+                <div class="header-top-left">
+                    <ul class="header-top-info">
+                        <li>
+                            <img src="images/icon-location-white.svg" alt="Location">
+                            <span>Serving with Care, Healing with Heart</span>
+                        </li>
+                        <li>
+                            <img src="images/icon-phone-white.svg" alt="Phone">
+                            <a href="tel:9266844161">+91 92668 44161</a>
+                        </li>
+                        <li>
+                            <img src="images/icon-mail-white.svg" alt="Email">
+                            <a href="mailto:info@khushihealthcare.com">info@khushihealthcare.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-top-right">
+                    <ul class="header-social-links">
+                        <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="/">
+                        <img src="images/site-logo-new.png" alt="Khushi Healthcare Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="gallery">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact">Book
+                                        Appointment</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="tel:9266844161" class="btn-default btn-highlighted">
+                                <i class="fa-regular fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                        <!-- Header Btn End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+
+<!-- HERO -->
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<span class="tag">PATIENT CARE</span>
+<h1>Compassionate Patient Care at Home</h1>
+<p>Dedicated caregivers for elderly and post-operative patients. Our patient care services provide reliable day-to-day assistance, companionship, comfort, and practical support for people who need extra help at home.</p>
+<p>We focus on creating a safe, comfortable, and respectful environment where patients can receive attentive care while staying close to their families and familiar surroundings.</p>
+</div>
+<img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=85" alt="Professional patient caregiver providing care">
+</div>
+</section>
+
+<!-- INTRO -->
+<section>
+<div class="container intro">
+<img src="https://images.unsplash.com/photo-1576765608866-5b51046452be?auto=format&fit=crop&w=1000&q=85" alt="Caregiver helping elderly patient">
+<div>
+<span class="tag">PERSONALIZED PATIENT SUPPORT</span>
+<h2>Patient Care Designed Around Comfort and Dignity</h2>
+<p>Patient care at home is about more than assistance with daily activities. It is about providing companionship, patience, attention, and dependable support to people who may temporarily or permanently need help.</p>
+<p>Our dedicated caregivers support elderly patients, individuals recovering after surgery, and patients who require assistance with everyday routines. Care is organized around the patient's comfort, preferences, safety, and individual requirements.</p>
+<p>We understand that every family has different needs. Our goal is to make everyday life easier for patients while giving family members additional peace of mind.</p>
+</div>
+</div>
+</section>
+
+<!-- WHAT IS PATIENT CARE -->
+<section class="light">
+<div class="container">
+<div class="center">
+<span class="tag">UNDERSTANDING PATIENT CARE</span>
+<h2>What Is Patient Care?</h2>
+<p>Patient care includes the everyday assistance, companionship, supervision, and personal support provided to people who need help because of age, recovery, reduced mobility, or changes in their ability to manage daily activities independently.</p>
+</div>
+<div class="cards">
+<div class="card"><div class="num">01</div><h3>Personal Assistance</h3><p>Support with appropriate daily routines and personal activities while maintaining privacy, dignity, and respect.</p></div>
+<div class="card"><div class="num">02</div><h3>Companionship</h3><p>Friendly and caring companionship that can help patients feel less isolated and more comfortable throughout the day.</p></div>
+<div class="card"><div class="num">03</div><h3>Daily Supervision</h3><p>Attentive supervision and practical assistance to help patients maintain a safe and organized daily routine.</p></div>
+</div>
+</div>
+</section>
+
+<!-- WHO CAN BENEFIT -->
+<section>
+<div class="container split">
+<div>
+<span class="tag">WHO CAN BENEFIT?</span>
+<h2>Support for Patients at Different Stages of Care</h2>
+<p>Patient care can be helpful whenever someone needs additional assistance at home. Professional caregivers can support both short-term recovery and ongoing daily care requirements.</p>
+<div class="list">
+<div>Elderly individuals who need regular daily assistance</div>
+<div>Patients recovering after surgery or hospitalization</div>
+<div>People with limited mobility or difficulty managing routines</div>
+<div>Patients who need companionship and supervision</div>
+<div>Individuals who need support during recovery from illness or injury</div>
+<div>Families who need additional help caring for a loved one</div>
+</div>
+</div>
+<img src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=1100&q=85" alt="Caregiver supporting an elderly patient">
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="light">
+<div class="container">
+<div class="center">
+<span class="tag">OUR PATIENT CARE SERVICES</span>
+<h2>Complete Support for Everyday Patient Needs</h2>
+<p>Our caregivers provide practical and compassionate support designed around the patient's daily routine and care requirements.</p>
+</div>
+<div class="cards">
+<div class="card"><div class="num">01</div><h3>Elderly Patient Care</h3><p>Dedicated support for senior citizens with daily routines, companionship, mobility assistance, comfort, and general supervision.</p></div>
+<div class="card"><div class="num">02</div><h3>Post-Operative Care</h3><p>Support for patients returning home after surgery, helping them manage daily routines and recovery with greater comfort and confidence.</p></div>
+<div class="card"><div class="num">03</div><h3>Personal Care Assistance</h3><p>Respectful assistance with suitable personal routines and everyday activities while maintaining the patient's privacy and dignity.</p></div>
+<div class="card"><div class="num">04</div><h3>Mobility Assistance</h3><p>Help with safe movement around the home and support for patients who may have difficulty walking or moving independently.</p></div>
+<div class="card"><div class="num">05</div><h3>Companionship Care</h3><p>Friendly conversation, companionship, and emotional support to help patients feel connected and cared for at home.</p></div>
+<div class="card"><div class="num">06</div><h3>Meal & Routine Support</h3><p>Assistance with appropriate daily routines, meal-related support, hydration reminders, and maintaining a comfortable schedule.</p></div>
+<div class="card"><div class="num">07</div><h3>Recovery Assistance</h3><p>Practical support during recovery from illness, injury, or hospitalization while following the patient's prescribed care plan.</p></div>
+<div class="card"><div class="num">08</div><h3>Night Care Support</h3><p>Care and supervision during nighttime hours for patients and elderly individuals who require additional assistance.</p></div>
+<div class="card"><div class="num">09</div><h3>Family Care Support</h3><p>Additional caregiver support that helps families manage responsibilities while staying involved in their loved one's care.</p></div>
+</div>
+</div>
+</section>
+
+<!-- POST OPERATIVE -->
+<section>
+<div class="container split">
+<img src="https://images.unsplash.com/photo-1516841273335-e39b37888115?auto=format&fit=crop&w=1100&q=85" alt="Post operative patient care at home">
+<div>
+<span class="tag">POST-OPERATIVE CARE</span>
+<h2>Comfortable Support After Surgery</h2>
+<p>Returning home after surgery can be challenging, especially when a patient needs help with movement, daily activities, rest, and maintaining a regular recovery routine.</p>
+<p>Our caregivers can provide practical assistance and companionship during the recovery period. They can help patients feel supported while family members remain involved in the overall care process.</p>
+<p>Post-operative patient care is arranged according to the patient's needs and the instructions provided by their healthcare professionals.</p>
+<div class="list">
+<div>Assistance with everyday routines</div>
+<div>Support with safe mobility and movement</div>
+<div>Companionship during recovery</div>
+<div>Help maintaining a comfortable daily schedule</div>
+<div>Communication with family regarding routine care needs</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ELDERLY -->
+<section class="light">
+<div class="container split">
+<div>
+<span class="tag">ELDERLY CARE</span>
+<h2>Respectful Care for Older Adults</h2>
+<p>Older adults may need additional support with everyday activities while still wanting to maintain independence and familiarity in their own homes.</p>
+<p>Our elderly patient care approach focuses on patience, companionship, comfort, safety, and respectful assistance. Caregivers can support daily routines while encouraging independence wherever appropriate.</p>
+<p>Families can have greater peace of mind knowing that their loved one has dedicated support and companionship throughout the day or during the agreed care schedule.</p>
+</div>
+<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1100&q=85" alt="Care and companionship for elderly patient">
+</div>
+</section>
+
+<!-- BENEFITS -->
+<section>
+<div class="container">
+<div class="center">
+<span class="tag">KEY BENEFITS</span>
+<h2>Benefits of Professional Patient Care</h2>
+<p>Professional patient care can make everyday life more manageable for patients and families while creating a more comfortable home environment.</p>
+</div>
+<div class="benefits">
+<div class="benefit"><h3>Comfort at Home</h3><p>Patients can receive personal support in a familiar environment surrounded by people and belongings they know.</p></div>
+<div class="benefit"><h3>Personalized Attention</h3><p>Care can be adjusted around the patient's individual routine, preferences, comfort, and level of assistance required.</p></div>
+<div class="benefit"><h3>Companionship</h3><p>Regular human interaction can make daily life more pleasant and help patients feel connected and supported.</p></div>
+<div class="benefit"><h3>Family Peace of Mind</h3><p>Families receive additional support with everyday caregiving responsibilities while continuing to stay involved.</p></div>
+<div class="benefit"><h3>Support During Recovery</h3><p>Patients recovering after surgery or illness can receive practical assistance while they regain strength and confidence.</p></div>
+<div class="benefit"><h3>Dignity & Respect</h3><p>Care is provided with patience, privacy, kindness, and respect for every patient's personal needs.</p></div>
+</div>
+</div>
+</section>
+
+<!-- WHY -->
+<section class="light">
+<div class="container split">
+<img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1100&q=85" alt="Compassionate caregiver with patient">
+<div>
+<span class="tag">WHY CHOOSE PROFESSIONAL CARE?</span>
+<h2>Dedicated Support When Your Family Needs It</h2>
+<p>Looking after an elderly or recovering family member can be demanding. Professional patient care provides families with additional support while helping the patient remain comfortable at home.</p>
+<p>A dedicated caregiver can help with practical daily needs, provide companionship, and maintain a consistent routine. This allows family members to spend more quality time with their loved ones without carrying every caregiving responsibility alone.</p>
+<div class="list">
+<div>Compassionate and respectful caregivers</div>
+<div>Patient-focused approach to everyday care</div>
+<div>Flexible support based on individual needs</div>
+<div>Care that respects personal routines</div>
+<div>Support for patients and their families</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROCESS -->
+<section>
+<div class="container">
+<div class="center">
+<span class="tag">OUR APPROACH</span>
+<h2>How Patient Care Works</h2>
+<p>We keep the care process simple, organized, and focused on the patient's comfort and requirements.</p>
+</div>
+<div class="process">
+<div class="step"><span>01</span><h3>Understand</h3><p>We learn about the patient's needs, daily routine, condition, and family requirements.</p></div>
+<div class="step"><span>02</span><h3>Plan</h3><p>A suitable care approach is planned around the patient's individual needs.</p></div>
+<div class="step"><span>03</span><h3>Care</h3><p>A dedicated caregiver provides appropriate support and companionship at home.</p></div>
+<div class="step"><span>04</span><h3>Support</h3><p>Families remain involved and receive support throughout the care arrangement.</p></div>
+</div>
+</div>
+</section>
+
+<!-- FAMILY -->
+<section class="light">
+<div class="container split">
+<div>
+<span class="tag">FAMILY SUPPORT</span>
+<h2>Helping Families Care With Confidence</h2>
+<p>Family members often want to provide the best possible care but may have work, travel, or other responsibilities. A professional caregiver can provide valuable assistance while keeping the family connected with the patient's everyday life.</p>
+<p>Our goal is not to replace the family. Instead, patient care is designed to work alongside family members, providing practical support where it is needed most.</p>
+<p>With compassionate assistance and a consistent routine, patients can feel more comfortable and families can have greater confidence in their loved one's daily care.</p>
+</div>
+<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1100&q=85" alt="Family and professional caregiver supporting patient">
+</div>
+</section>
+
+<!-- WHEN NEEDED -->
+<section>
+<div class="container">
+<div class="center">
+<span class="tag">WHEN PATIENT CARE MAY HELP</span>
+<h2>When Should You Consider Patient Care?</h2>
+<p>Professional patient care may be useful whenever an individual needs additional help with daily activities, companionship, supervision, or recovery support.</p>
+</div>
+<div class="cards">
+<div class="card"><h3>After Hospital Discharge</h3><p>When a patient needs additional support while adjusting to life at home after hospitalization.</p></div>
+<div class="card"><h3>After Surgery</h3><p>When recovery temporarily affects mobility, daily routines, or the ability to manage activities independently.</p></div>
+<div class="card"><h3>For Elderly Family Members</h3><p>When an older adult needs regular companionship, assistance, supervision, or support with daily routines.</p></div>
+<div class="card"><h3>During Illness or Recovery</h3><p>When a patient needs extra practical and emotional support while recovering from an illness or injury.</p></div>
+</div>
+</div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+<div class="container">
+<h2>Dedicated Patient Care With Compassion</h2>
+<p>Every patient deserves to feel comfortable, respected, and supported. Our patient care services are designed to provide dedicated assistance to elderly and post-operative patients while helping them maintain a familiar and comfortable lifestyle at home.</p>
+<p>With compassionate caregivers, personalized support, and a patient-first approach, we aim to make everyday care easier for patients and their families.</p>
+</div>
+</section>
+
+    <!-- Main Footer Start -->
+    <div class="main-footer bg-section dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <!-- Let's Talk Box Start -->
+                    <div class="lets-talk-box">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Start Your Care Journey</span>
+                            <!-- Let's Talk Title Start -->
+                            <div class="lets-talk-title">
+                                <h2><a href="tel:9266844161">Let's Talk</a></h2>
+                                <!-- Footer Experience Circle Start -->
+                                <div class="years-experience-circle">
+                                    <figure>
+                                        <img src="images/site-icon.png" alt="site-icon">
+                                    </figure>
+                                </div>
+                                <!-- Footer Experience Circle End -->
+                            </div>
+                            <!-- Let's Talk Title End -->
+                        </div>
+                        <!-- Section Title End -->
+                    </div>
+                    <!-- Let's Talk Box End -->
+                </div>
+
+                <div class="col-xl-7">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Header Start -->
+                        <div class="footer-header">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="images/site-logo-1.png" alt="Khushi Healthcare Nursing Services">
+                            </div>
+                            <!-- Footer Logo End -->
+
+                            <!-- Footer Social Links Start  -->
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End  -->
+                        </div>
+                        <!-- Footer Header End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="services">Services</a></li>
+                                <li><a href="gallery">Gallery</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Medical Services</h2>
+                            <ul>
+                              <li><a href="home-nursing">Home Nursing</a></li>
+                                <li><a href="patient-care">Patient Care</a></li>
+                                <li><a href="elder-care">Elder Care</a></li>
+                                <li><a href="physiotherapy">Physiotherapy</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Support</h2>
+                            <ul>
+                                 <li><a href="#">Customer Support</a></li>
+                                <li><a href="terms-conditions">Terms and Conditions</a></li>
+                                <li><a href="privacy-policy">Privacy Policy</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Copyright Start -->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Footer Copyright Text Start -->
+                        <div class="footer-copyright-text">
+                            <p>© 2026 Khushi Healthcare Nursing Services. All Rights Reserved. | <a
+                                    href="privacy-policy"
+                                    style="color: inherit; text-decoration: underline;">Privacy Policy</a> | <a
+                                    href="terms-conditions"
+                                    style="color: inherit; text-decoration: underline;">Terms &amp; Conditions</a></p>
+                        </div>
+                        <!-- Footer Copyright Text End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright End -->
+    </div>
+    <!-- Main Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Circle Progress Js File -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- lightbox  -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+</body>
+
+</html>
